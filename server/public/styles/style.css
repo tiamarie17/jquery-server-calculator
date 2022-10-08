@@ -1,0 +1,54 @@
+h1, h2 {
+    text-align: center;
+}
+
+.calculatorBody {
+    background-color: lightgrey;
+    width: 200px;
+    margin: auto;
+    justify-content: center;
+    border-radius: 13px;
+    padding: 6px;
+    
+}
+
+input {
+    background-color: lightgoldenrodyellow;
+    border-radius: 13px;
+    height: 25px;
+   
+   
+}
+
+.deleteButton {
+    margin: auto;
+    justify-content: center;
+    background-color: lavender
+}
+
+.delete {
+    width: 100px;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+.deleteButton:hover {
+    background-color: lightcoral;
+}
+
+
+.clear {
+    background-color: lightgreen;
+}
+
+.equals {
+    background-color: lightblue;
+}
+
+.number, .operator, .clear, .equals {
+    margin: auto;
+    width: 35px;
+    height: 35px;
+}
+
